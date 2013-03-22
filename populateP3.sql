@@ -1,0 +1,57 @@
+INSERT INTO Person VALUES (1, 'Tabassum', 'Anika', '5145543454')
+INSERT INTO Person VALUES (2, 'Dumitrescu', 'Alina', '5155543454')
+INSERT INTO Person VALUES (3, 'Ahmed', 'Alia', '5145588884')
+INSERT INTO Person VALUES (4, 'Taran', 'Ana', '5145543454')
+INSERT INTO Person VALUES (5, 'Alexandru', 'Talia', '5142243454')
+INSERT INTO Person VALUES (6, 'Shan', 'Chiu', '5142243454')
+INSERT INTO Person VALUES (11, 'Ping', 'Pong', '5142243454')
+INSERT INTO Person VALUES (12, 'Alexandru', 'Maria', '5142243454')
+INSERT INTO Person VALUES (20, 'Matio', 'Mara', '5142243454')
+
+INSERT INTO Person VALUES (1, 'Tabassum', 'Anika', '5145543454')
+INSERT INTO Person VALUES (2, 'Dumitrescu', 'Alina', '5155543454')
+INSERT INTO Person VALUES (3, 'Ahmed', 'Alia', '5145588884')
+INSERT INTO Person VALUES (4, 'Taran', 'Ana', '5145543454')
+INSERT INTO Person VALUES (5, 'Alexandru', 'Talia', '5142243454')
+INSERT INTO Person VALUES (6, 'Shan', 'Chiu', '5142243454')
+INSERT INTO Person VALUES (11, 'Ping', 'Pong', '5142243454')
+INSERT INTO Person VALUES (12, 'Alexandru', 'Maria', '5142243454')
+INSERT INTO Person VALUES (20, 'Matio', 'Mara', '5142243454')
+
+INSERT INTO Member VALUES (1, DEFAULT, DEFAULT, 50, 3)
+INSERT INTO Member VALUES (2, DEFAULT, DEFAULT, 50, 0)
+INSERT INTO Member VALUES (3, DEFAULT, DEFAULT, 50, 0)
+INSERT INTO Member VALUES (4, DEFAULT, DEFAULT, 50, 100.45)
+INSERT INTO Member VALUES (5, DEFAULT, '02/05/2015', 50, 100.45)
+INSERT INTO Member VALUES (20, DEFAULT, '02/06/2015', 50, 100.45)
+INSERT INTO Member VALUES (6, DEFAULT, DEFAULT, 60, 3)
+
+INSERT INTO Employee VALUES (1, '958484999', 14.50, 'Brookville, 4564, Montreal j7v9u6') 
+INSERT INTO Employee VALUES (2, '958484991', 14.50, 'Laval, 45, Montreal j7v9u6') 
+INSERT INTO Employee VALUES (3, '958484992', 14.50, 'Brookville, 4564, Montreal j7v9u6') 
+INSERT INTO Employee VALUES (4, '958484993', 14, 'Dorval, 4, Montreal j7v9u6') 
+INSERT INTO Employee VALUES (5, '958484994', 30.50, 'Brookville, 4564, Montreal j3v6u8') 
+INSERT INTO Employee VALUES (6, '958455591', 27000, 'Laval, 45, Montreal j7v9u6')
+
+insert into Sections values ('BIO01', 1, 'Biology') 
+insert into Sections values ('COMP02', 2, 'Computer Science') 
+insert into Sections values ('HIST03', 3, 'History') 
+insert into Sections values ('ART09', 1, 'Arts') 
+insert into Sections values ('SCI16', 1, 'Science') 
+
+insert into Books values (33, 'HIST03', 'Edition 3', 'History', 'The Amazing Life and Strange Death of Captain Cook', '0571089895', 4352) 
+insert into Books values (32, 'HIST03', 'Edition 1', 'Ancient History', 'Babylon: Mesopatamia and the Birth of Civilization', '0571089032', 4352)
+insert into Books values (31, 'HIST03', 'Edition 7', 'Ancient History', 'Legends of the Ancient World: The Life and Legacy of Queen Nefertiti', '0571089638', 4352)
+
+insert into Books values (22, 'ART09', null, 'Pop Art', 'The Philosophy of Andy Warhol: From A to B and Back Again', '0571580239', 3111)
+insert into Books values (21, 'ART09', null, 'Abstract Expressionism', 'Jackson Pollock', '0571585434', 3111)
+
+insert into Books values (44, 'BIO01', null, 'Natural History', 'The Mesozoic Era: The Age of Reptiles', '0572342563', 6432)
+insert into Books values (43, 'BIO01', 'Edition 6', 'Immunology', 'Essential Immunology', '0572342535', 6431)
+
+insert into Books values (57, 'COMP02', 'Edition 2', 'Technology', 'The C Programming Language', '0572325344', 3452)
+
+insert into Books values (82, 'SCI16', 'Edition 9', 'Chemistry', 'General Chemistry', '0572344535', 3673)
+
+insert into Book_instance values (30, 33) 
+insert into Book_instance values (1, 41)

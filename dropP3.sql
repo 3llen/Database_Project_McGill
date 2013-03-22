@@ -1,0 +1,11 @@
+DROP TABLE Person
+DROP TABLE Employee
+DROP TABLE Member
+DROP TABLE Sections
+DROP TABLE Books
+DROP TABLE Book_Instance
+DROP TABLE Author
+DROP TABLE Written_by
+DROP TABLE Publisher
+DROP TABLE Published_by
+DROP TABLE Borrowed_by
