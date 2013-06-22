@@ -1,0 +1,14 @@
+1.1    3 jobs
+
+1.2    job 1: 50;  job 2:1;  job3=50
+
+1.3     Entire script takes 8 min 30 seconds; job 1: 5 min 22 sec; job 2:1 min 23 sec; job 3: 1 min 45 s
+
+1.4    
+
+ntriples: {subject: chararray,predicate: chararray,object: chararray}
+
+objects: {group: chararray,ntriples: {subject: chararray,predicate: chararray,object: chararray}}
+
+count_by_object: {group: chararray,count: long}
+

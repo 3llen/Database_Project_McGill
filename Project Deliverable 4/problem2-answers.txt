@@ -1,0 +1,34 @@
+# of jobs: 4
+
+job1:
+
+    # map tasks: 33
+
+    # reduce tasks: 50
+
+    runtime: 7 min 14 s
+
+job2:
+
+    # map tasks: 1       
+
+    # reduce tasks: 1
+
+    runtime: 1 min 32 s
+
+job3:
+
+    # map tasks: 1
+
+    # reduce tasks: 1
+
+    runtime: 1 min 8 s
+
+job4:
+
+    # map tasks: 1
+
+    # reduce tasks: 8
+
+    runtime: 1 min 39 s
+
